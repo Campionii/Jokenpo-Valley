@@ -1,0 +1,169 @@
+
+
+    ul#jogadorEscolha li a:hover,
+    ul#jogadorEscolha li a.selecionado,
+    ul#computadorEscolha li a.selecionado {
+        opacity: 1;
+    }
+
+    ul#jogadorEscolha li a,
+    ul#computadorEscolha li a {
+        opacity: 0.2;
+    }
+
+    /*fim script */
+
+    /*fontes*/
+
+    @font-face {
+        font-family: 'Stardew'; /* Escolha um nome para a fonte */
+        src: url('fonts/TTF/dogica.ttf') format('truetype');
+        
+    }
+
+
+
+    /* Reset CSS */
+    body, h1, h2, h3, p, ul, ol, li {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    ul, ol {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+
+
+    body {
+        background-image: url('img/fundo-sv.jpg');
+        background-size: cover; 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+        
+    }
+
+    #cabesalho {
+
+        background-color: #efbf83;
+        box-shadow: 0px 7px 6px;
+    }
+
+    #mensagem {
+
+        color: #f9d987;
+    }
+
+    #computadorNome ,#jogadorNome ,#jogadorPontos ,#computadorPontos {
+
+        font-family: "stardew";
+    }
+
+    .imagens {
+        display: flex;
+        justify-content: center; /* Centraliza horizontalmente */
+        align-items: center; /* Centraliza verticalmente */
+        height: 300px; /* Ajuste a altura conforme necessário */
+    
+    }
+
+    .imagens img {
+        width: 150px; /* Tamanho das imagens */
+        height: auto;
+    }
+
+    #placar {
+        display: flex;
+        justify-content: center; /* Centraliza horizontalmente */
+        align-items: center; /* Centraliza verticalmente */
+        height: 50rem; /* Altura total da tela, você pode ajustar conforme necessário */
+        margin: 0 auto; /* Centraliza horizontalmente */
+    }
+    
+    #placar ul {
+        display: flex;
+        list-style: none;
+        padding: 0; /* Remova o padding padrão das listas */
+    }
+    
+    #placar li {
+        margin: 0 10px; /* Espaçamento entre as imagens */
+    }
+
+    #versus {
+        font-family: 'Stardew';
+    }
+
+
+    .logo {
+        display: flex;
+        align-items: center; 
+        
+    }
+
+    .logo h1 {
+        margin-right: 10px; /* Espaçamento entre o título e o logotipo */
+    }
+
+
+    #jogador{
+    
+    padding-top:10px ;
+    }
+
+    .stardew-inventory {
+        border: 2px solid #fb772c; 
+        background-color: #f8dd87; 
+        padding: 10px;
+        display: inline-block;
+    }
+
+
+    .final {
+    background-color: rgba(239, 191, 131, 0.8);
+    text-align: center;
+    padding: 10px; /* Adicione um espaçamento interno para melhor visualização */
+    display: flex;
+    flex-direction: initial; /* Alinhar conteúdo verticalmente */
+    align-items: center; /* Centralizar horizontalmente */
+    justify-content: center; /* Centralizar verticalmente */
+   
+    }
+
+    .texto-footer {
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: "stardew";
+    white-space: nowrap;
+    margin-bottom: 10px; /* Espaço entre o texto e a imagem */
+    }
+
+    .galinha {
+    width: 100px;
+    height: auto;
+        }
+
+    #mensagem {
+    color: white;
+    font-family: "stardew";
+    white-space: nowrap;
+    display: flex;
+    text-align: center;
+    padding: 0px 700px;
+    border: 2px solid #fb772c; 
+    background-color: #f8dd87; 
+    
+    }

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokenpô Valley</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header id="cabesalho">
+        <div class="logo">
+            <h1 id="titulo"></h1>
+            <img src="img/stardew.png" alt="">
+        </div>
+    </header>
+    <div id="placar">
+        <div class="stardew-inventory">
+        <div id="jogador">
+            <h2 id="jogadorNome">Player 1</h2>
+            <p id="jogadorPontos">0</p>
+            <ul id="jogadorEscolha">
+                <li>
+                    <a id="jogadorEscolha1" onclick="jogar(1)">
+                        <div class="imagens">
+                            <img class="pedra" src="img/pedra-sv.png" alt="">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a id="jogadorEscolha2" onclick="jogar(2)">
+                        <div class="imagens">
+                            <img class="papel" src="img/bilhete.png" alt="">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a id="jogadorEscolha3" onclick="jogar(3)">
+                        <div class="imagens">
+                            <img class="tesoura" src="img/tesoura-sv.png" alt="">
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+        <div id="versus">VS</div>
+        <div id="computador">
+            <div class="stardew-inventory">
+            <h2 id="computadorNome">Computador</h2>
+            <p id="computadorPontos">0</p>
+            <ul id="computadorEscolha">
+                <li>
+                    <a id="computadorEscolha1">
+                        <div class="imagens">
+                            <img class="rock" src="img/pedra-sv.png" alt="">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a id="computadorEscolha2">
+                        <div class="imagens">
+                            <img class="paper" src="img/bilhete.png" alt="">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a id="computadorEscolha3">
+                        <div class="imagens">
+                            <img class="scissors" src="img/tesoura-sv.png" alt="">
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+        <div id="mensagem">&nbsp;</div>
+    </div>
+
+    <footer class="final">
+        <h2 class="texto-footer">Pedra, papel e tesoura no estilo do Stardew Valley <br> By Campionix</h2>
+        <img class="galinha" src="img/galinha-sv.png" alt="galinha stardew">
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
